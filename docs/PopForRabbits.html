@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Rabbit Estimate</title>
+	<meta charset=UTF-8/>
+	<link rel="stylesheet" type="text/css" href="./PopulationForecast-Rabbits.css">
+	<script src="./PopulationForecast-Rabbits.js"></script>
+</head>
+
+<body>
+<h1>Population Forecast - Rabbits</h1>
+<section>
+<p class="instruct">Estimates the population of rabbits in a given month.
+<br>
+In month 1, there are 2 rabbits.</p>
+<form onSubmit="calculate(document.getElementById('inputMonth').value); return false"> <!--Allows pressing Enter while text box has focus to calculate estimate without refreshing the form-->
+	<p class="prompt">Month:
+	<input class="inputMonth" type="text" id='inputMonth' name="inputMonth" value="1"></p>
+	<button class="submit" type="button" onclick="calculate(document.getElementById('inputMonth').value)">Estimate Population</button>
+	<br>
+</form>
+<p class="output" id="output"></p>
+</section>
+</body>
+</html>
