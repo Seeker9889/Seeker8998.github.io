@@ -1,0 +1,169 @@
+html {
+	/*forces a scrollbar on all pages to prevent jumping header*/
+	overflow: scroll;
+}
+
+h1 {
+	text-align:center;
+	font-size:250%;
+	font-family:"Helvetica", sans-serif;
+	font-weight: bold;
+	margin:0;
+}
+
+h2 {
+	text-align:center;
+	font-size:150%;
+	font-family:"Helvetica", sans-serif;
+}
+
+h3 {
+	text-align:left;
+	font-size:125%;
+}
+
+body {
+	background-color:#c7c9c8;
+}
+
+
+
+table, th, td, tr {
+	border-style: solid;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+
+a.jumptop {
+	position: fixed;
+	bottom:40px;
+	left:40px;
+}
+
+/*Display image in-line with text*/
+img.intext {
+	vertical-align:-50%;
+}
+
+ul {
+	/* Intentionally empty */
+}
+
+li {
+	/* Intentionally empty */
+}
+
+a {
+	/* Intentionally empty */
+}
+
+nav.appearance {
+	width: 100%;
+	position: fixed;
+	z-index:5;
+	top:0px;
+	left: 0px;
+	background-color: #14A989;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.btn:active, .btn:active, .btn.focus, .btn:active.focus, .btn:active:focus, btn:focus, .btn:focus{
+	border:none;
+	outline:0;
+}
+
+.collapsebtn {
+	text-align:left;
+	width:100%;
+	outline:0;
+	border-style: solid;
+	border-collapse: collapse;
+	border-color: #c0c4c2;
+	background-color: #dee0df;
+	padding: 10px;
+	margin:1px;
+	color:black;
+}
+
+ul.n {
+	text-align: center;
+	font-family: Verdana;
+	list-style-type: none;
+	overflow: hidden;
+	font-weight: bold;
+	padding-top: 0%;
+	padding-right:10%;
+}
+
+li.n {
+	float: left;
+}
+
+li.nr {
+	float: right;
+}
+
+a.n:link, a.n:visited {
+	display: block;
+	width: 130px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding: 6px;
+}
+
+a.n:hover, a.n:active {
+	background-color: azure;
+}
+
+a.linker:link, a.linker:visited {
+	display: block;
+	background-color:white;
+	font-size:230%;
+	text-decoration:none;
+	color:#45464b;
+	border-style: solid;
+	border-collapse: collapse;
+	border-color: lightgray;
+	padding: 5px;
+}
+
+a.linker:hover, a.linker:active {
+		background-color:lightgrey;
+}
+
+section {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	overflow: hidden;
+}
+
+div.infobox {
+	border-style: solid;
+	border-collapse: collapse;
+	border-color: #c0c4c2;
+	background-color: #dee0df;
+	padding: 10px;
+	margin:1px;
+	width: 500px;
+}
+
+div.collapse-display {
+	border-style: solid;
+	border-collapse: collapse;
+	border-color: #c0c4c2;
+	background-color: #dee0df;
+	padding: 10px;
+	margin:1px;
+	color:black;
+}
+
+.anchor {
+	display:block;
+	height:100px;
+	margin-top:-100px;
+	visibility:hidden;
+}
