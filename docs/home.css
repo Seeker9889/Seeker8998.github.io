@@ -68,8 +68,11 @@ nav.appearance {
 	border-radius: 0px 0px 0px 0px;
 }
 
+
 .btn:active, .btn:active, .btn.focus, .btn:active.focus, .btn:active:focus, btn:focus, .btn:focus{
 	border:none;
+	white-space: normal !important;
+	word-wrap: break-word;
 	outline:0;
 }
 
